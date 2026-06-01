@@ -1,4 +1,4 @@
-### Hardware Inventory and Asset Management System
+# Hardware Inventory and Asset Management System
 A robust, full-stack web application designed for tracking, managing, and issuing IT infrastructure assets (such as CPUs, Monitors, Keyboards, Mice, Combo Sets, and custom network configurations) within an organization.
 
 ## 🚀 Features
@@ -16,3 +16,38 @@ A robust, full-stack web application designed for tracking, managing, and issuin
 **Smart Forms & Event Handlers:** Client-side JavaScript calculators automatically compute hardware warranty expiration parameters against the assigned purchase dates.
 
 **Dashboard Summary Analytics:** High-level operational reporting system evaluating total stock counts, dynamic allocations, live low-stock thresholds, and transactional monthly issuance timelines.
+
+
+## 🛠️ Tech Stack
+
+**Backend**: PHP (with MySQLi prepared statements to prevent SQL Injection attacks)
+
+**Database**: MySQL / MariaDB (Relational design managing decoupled hardware entities alongside transactional tracking tables)
+
+**Frontend**: HTML5, Modern CSS Grid/Flexbox, Vanilla JavaScript
+
+**Local Server Environment**: XAMPP / WAMP
+
+## 💻 Installation & Setup
+
+**Clone the Repository:** git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+
+**Move to Web Root Directory**:Place the project folder inside your XAMPP server's directory:
+
+**Window**s: C:\xampp\htdocs\
+
+**Database Configuration**:
+
+- Open your browser and navigate to http://localhost/phpmyadmin/.
+
+- Create a new database named hardware (or your preferred database name).
+
+- Import your .sql backup file into the newly created database.
+
+- Ensure your db.php credential mapping aligns with your environment details:
+
+$conn = new mysqli("localhost", "root", "", "hardware");
+
+**Launch the Application**
+
+Start Apache and MySQL from your XAMPP Control Panel and access the application via: **http://localhost/hardware/admin/view_equipment.php**
