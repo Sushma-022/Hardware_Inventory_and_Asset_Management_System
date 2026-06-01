@@ -1,3 +1,4 @@
+
 # Hardware Inventory and Asset Management System
 A robust, full-stack web application designed for tracking, managing, and issuing IT infrastructure assets (such as CPUs, Monitors, Keyboards, Mice, Combo Sets, and custom network configurations) within an organization.
 
@@ -27,6 +28,26 @@ A robust, full-stack web application designed for tracking, managing, and issuin
 **Frontend**: HTML5, Modern CSS Grid/Flexbox, Vanilla JavaScript
 
 **Local Server Environment**: XAMPP / WAMP
+
+## Screenshots 
+
+<img width="1919" height="864" alt="image" src="https://github.com/user-attachments/assets/014401d0-7bb0-45bf-959a-41e7b72402b0" />
+
+<img width="1901" height="871" alt="image" src="https://github.com/user-attachments/assets/c6f67196-7064-472d-8740-f928751472d8" />
+
+<img width="1919" height="805" alt="image" src="https://github.com/user-attachments/assets/6c936723-b734-4909-b140-e6b1fe7e963c" />
+
+<img width="1896" height="870" alt="image" src="https://github.com/user-attachments/assets/4cafcecc-91bd-4c76-919f-9716f8ae7bd2" />
+
+<img width="1901" height="868" alt="image" src="https://github.com/user-attachments/assets/4f93ea56-5c97-48a0-9cac-ca36bd9a45d4" />
+
+<img width="1917" height="801" alt="image" src="https://github.com/user-attachments/assets/ed700a9d-217e-4949-8714-6724f8f0dbaa" />
+
+<img width="1919" height="830" alt="image" src="https://github.com/user-attachments/assets/cb803db5-9dc5-450e-91ec-ba448e903d44" />
+
+<img width="1910" height="844" alt="image" src="https://github.com/user-attachments/assets/1303ee97-979e-44fd-915b-9b8bcc4712c9" />
+
+
 
 ## 💻 Installation & Setup
 
